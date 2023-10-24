@@ -13,11 +13,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+
   margin: 10px;
   gap: 20px;
 }
-
+p {
+  text-align: center;
+}
 .header div {
   border: 1px solid orange;
   padding: 1rem;
