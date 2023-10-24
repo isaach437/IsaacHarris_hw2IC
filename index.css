@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 1px solid orange;
+  margin: 5px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  gap: 20px;
+}
+
+.header div {
+  border: 1px solid orange;
+  padding: 1rem;
+}
+
+.collapseables {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.A {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.B {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.C {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.hideable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#hideableA {
+  visibility: hidden;
+}
+
+#hideableB {
+  visibility: hidden;
+}
+
+#hideableC {
+  visibility: hidden;
+}
+
+#hideA {
+  background-color: rgb(76, 76, 210);
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#hideB {
+  background-color: rgb(76, 76, 210);
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#hideC {
+  background-color: rgb(76, 76, 210);
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#A {
+  background-color: white;
+  border: 1px solid orange;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#B {
+  background-color: white;
+  border: 1px solid orange;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#C {
+  background-color: white;
+  border: 1px solid orange;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
