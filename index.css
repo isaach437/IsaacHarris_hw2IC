@@ -61,6 +61,8 @@ p {
 }
 
 .hideable {
+  border: 1px solid orange;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
